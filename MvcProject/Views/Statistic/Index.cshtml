@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+
+ <div class="card-columns">
+    <div class="card bg-primary">
+        <div class="card-body text-center">
+            <p class="card-text">
+            Toplam kategori sayısı<br /> @ViewBag.r1
+            </p>
+            </div>
+            </div>
+            <div class="card bg-warning">
+            <div class="card-body text-center">
+            <p class="card-text">
+            Başlık tablosunda "yazılım" kategorisine ait başlık sayısı<br /> @ViewBag.r2
+            </p>
+            </div>
+            </div>
+            <div class="card bg-success">
+            <div class="card-body text-center">
+            <p class="card-text">
+            Yazar adında 'a' harfi geçen yazar sayısı<br /> @ViewBag.r3
+            </p>
+            </div>
+            </div>
+            <div class="card bg-danger">
+            <div class="card-body text-center">
+            <p class="card-text">
+            En fazla başlığa sahip kategori adı<br /> @ViewBag.r4
+            </p>
+            </div>
+            </div>
+            <div class="card bg-light">
+            <div class="card-body text-center">
+            <p class="card-text">
+            Kategori tablosunda durumu true olan kategoriler ile false olan kategoriler arasındaki sayısal fark<br /> @ViewBag.r5
+            </p>
+            </div>
+            </div>
+       </div>
