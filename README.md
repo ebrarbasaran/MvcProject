@@ -8,7 +8,7 @@ Kırkıncı derse kadar olan tüm güncellemeler dahil edilmiştir.
 ##	Kamp Süreç Analizi
 ###	Yirminci derse kadar yapılanlar
 		+ Entity katmanının oluşturulup,entity sınıflarının eklenmesi
-		+ Code First ile tablo ilişkilendirmesi ve migration işlemleri12
+		+ Code First ile tablo ilişkilendirmesi ve migration işlemleri
 		+ Ve diğer ana katmanlar (Business Layer,Entity Layer,DataAccess Layer,UI Layer)
 ###	Kırkıncı derse kadar yapılanlar
 		+ Ekleme,listeleme,güncelleme,silme işlemleri yapıldı
